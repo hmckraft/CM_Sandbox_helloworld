@@ -1,0 +1,66 @@
+/* this is a comment in CSS */
+
+.navbar {
+  font-size: 20px;
+  text-align: left;
+  padding-left: 40px;
+  color: black;
+  height: 70px;
+  background-color: rgb(90, 105, 90);
+  margin-right: 800px;
+}
+
+  .hero {
+
+    background-color: rgb(165, 136, 136);
+    height: 600px;
+   
+  }
+
+  .hero h1 {
+    text-align: justify, left;
+    width: 900px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 40px;
+    font-size: 90px;
+    padding-top: 150px;
+    color: white;
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+  .story {
+    background-color: rgb(165, 136, 136);
+    height: 300px;
+  }
+
+  .story h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: black;
+    padding-left: 40px;
+    padding-top: 40px;
+  }
+
+  .story p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color:white;
+    padding-left: 40px;
+  }
+
+  .items h1{
+    text-align: center;
+    color:white;
+    background-color:black;
+    padding: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+  }
