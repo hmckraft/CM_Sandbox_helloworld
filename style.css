@@ -1,14 +1,13 @@
 /* this is a comment in CSS */
 
-.navbar {
+/* .navbar { 
   font-size: 20px;
   text-align: left;
   padding-left: 40px;
   color: black;
   height: 70px;
   background-color: rgb(90, 105, 90);
-  margin-right: 800px;
-}
+} */
 
   .hero {
 
@@ -33,34 +32,74 @@
   
   .column {
     flex: 33.33%;
-    padding: 5px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    
   }
 
-  .story {
-    background-color: rgb(165, 136, 136);
-    height: 300px;
+  .joke {
+    background-color: rgb(0, 0, 0);
+    height: 450px;
   }
 
-  .story h3 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    color: black;
+  .joke h3 {
+    font-family: 'Roboto', sans-serif;
+    text-align: justify, left;
+    width: 700px;
+    font-size: 60px;
+    color: white;
     padding-left: 40px;
     padding-top: 40px;
   }
 
-  .story p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    color:white;
-    padding-left: 40px;
+  button {
+    margin-left: 40px;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    color: black;
+    width: 200px;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    border: none;
+    margin-bottom: 40px;
+    cursor: pointer;
   }
 
-  .items h1{
-    text-align: center;
+
+  #answer {
+    color: rgb(204, 166, 41);
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    margin-left: 40px;
+    text-transform: uppercase;
+  }
+
+  .tools {
+    background-color: rgb(165, 136, 136);
+    height: auto;
+  }
+
+
+  .tools p {
+    font-family: 'Roboto', sans-serif;
+    text-align: justify, left;
+    width: 600px;
+    font-size: 40px;
     color:white;
-    background-color:black;
-    padding: 20px;
-    margin-left: 400px;
-    margin-right: 400px;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  a {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+    text-decoration: none;
+  }
+  a:hover {
+    color: white;
   }
