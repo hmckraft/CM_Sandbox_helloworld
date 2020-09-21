@@ -1,20 +1,14 @@
 /* this is a comment in CSS */
 
-/* .navbar { 
-  font-size: 20px;
-  text-align: left;
-  padding-left: 40px;
-  color: black;
-  height: 70px;
-  background-color: rgb(90, 105, 90);
-} */
-
+  body {
+  padding: 0px;
+  margin: 0px;
+}
   .hero {
 
     background-color: rgb(165, 136, 136);
     height: 600px;
     row-gap: 5px;
-   
   }
 
   .hero h1 {
@@ -83,7 +77,11 @@
     height: 820px;
     padding-top: 1px;
   }
-
+ 
+  .tools img {
+    display: block;
+    margin-bottom: 20px;
+  }
 
   .tools p {
     font-family: 'Roboto', sans-serif;
@@ -111,12 +109,11 @@
   .end {
     font-family: 'Roboto', sans-serif;
     text-align: right;
-    padding-top: 1px;
+    border: 1px solid black;
     font-size: 60px;
     color: white;
     padding-top: 100px;
     padding-right: 40px;
     background-color: black;
-    height: 175px;
-   
+    /* height: 175px; */
   }
